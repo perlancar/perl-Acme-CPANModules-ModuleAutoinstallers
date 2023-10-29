@@ -1,12 +1,14 @@
 package Acme::CPANModules::ModuleAutoinstallers;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
 
 our $LIST = {
-    summary => 'Modules that autoinstalls other modules during run-time',
+    summary => 'List of modules that autoinstalls other modules during run-time',
     description => <<'_',
 
 These "module autoinstallers" modules can automatically install missing module
