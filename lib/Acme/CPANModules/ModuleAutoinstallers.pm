@@ -35,3 +35,6 @@ _
 =head1 prepend:SEE ALSO
 
 L<Acme::CPANModules::ModuleAutoloaders>
+
+L<Acme::CPANModules::LoadingModules> for a more general list of modules related
+to loading other Perl moduless.
