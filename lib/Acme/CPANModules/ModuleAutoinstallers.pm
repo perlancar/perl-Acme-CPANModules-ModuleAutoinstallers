@@ -9,7 +9,7 @@ use strict;
 
 our $LIST = {
     summary => 'List of modules that autoinstalls other modules during run-time',
-    description => <<'_',
+    description => <<'MARKDOWN',
 
 These "module autoinstallers" modules can automatically install missing module
 during run-time using one of installers (usually `cpanm` a.k.a.
@@ -21,8 +21,9 @@ run the Perl script to see which module it tries and fails to load.
 They work by installing a hook in `@INC`. Read more about require hooks in
 `perlfunc` under the `require` function.
 
-_
+MARKDOWN
     entries => [
+        {module => 'lazy'},
         {module => 'lib::xi'},
         {module => 'Module::AutoINC'},
         {module => 'Require::Hook::More'}, # actually autoinstalling feature not yet implemented
