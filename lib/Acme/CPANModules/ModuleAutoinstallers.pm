@@ -8,7 +8,7 @@ use strict;
 # VERSION
 
 our $LIST = {
-    summary => 'List of modules that autoinstalls other modules during run-time',
+    summary => 'List of modules that autoinstall other modules during run-time',
     description => <<'MARKDOWN',
 
 These "module autoinstallers" modules can automatically install missing module
